@@ -13,7 +13,7 @@ while(i < total_data):
     print(dataline)
     dataline = dataline.split()
 
-    if dataline[0] == 'TIMES':
+    if dataline[0] == b'TIMES':
         data[i]=dataline[1],dataline[2],dataline[3],dataline[4]
         i = i + 1
 
